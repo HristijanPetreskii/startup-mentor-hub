@@ -1,0 +1,86 @@
+/* Wrapper */
+.header {
+  background: #fff;
+  border-bottom: 1px solid #eef2f7;
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Left: logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 0 0 auto;
+}
+.logo img { height: 34px; }
+.logo span {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #696cff;
+}
+
+/* Middle: nav — centered between logo & auth */
+.main-nav { flex: 1; display: flex; justify-content: center; }
+.main-nav ul {
+  display: flex;
+  gap: 28px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  padding: 8px 10px;
+  border-radius: 6px;
+  transition: background-color .2s, color .2s;
+}
+.nav-link:hover { background: #f5f6ff; }
+.nav-link.active { color: #696cff; background: #eef0ff; }
+
+/* Right: auth buttons */
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 0 0 auto;
+}
+.login-button {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  padding: 8px 10px;
+  border-radius: 8px;
+  transition: background-color .2s;
+}
+.login-button:hover { background: #f5f6ff; }
+
+.get-started-button {
+  text-decoration: none;
+  font-weight: 800;
+  padding: 10px 14px;
+  background: #7d3cff;
+  color: #fff;
+  border-radius: 999px;
+  transition: background-color .2s, transform .05s;
+}
+.get-started-button:hover { background: #5a28b8; }
+.get-started-button:active { transform: translateY(1px); }
+
+/* Optional: small screens */
+@media (max-width: 900px) {
+  .header-inner { gap: 12px; }
+  .main-nav ul { gap: 18px; }
+}
+@media (max-width: 720px) {
+  .main-nav { display: none; } /* скриј нав на мобилен ако немаш бургер */
+}

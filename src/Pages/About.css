@@ -1,0 +1,51 @@
+.class1{
+    width: 350px;
+    margin-left: 200px;
+}
+.class2{
+    width: 350px;
+    margin-left: 650px;
+    margin-top: -420px;
+}
+.class3{
+    width: 350px;
+    margin-left: 1100px;
+    margin-top: -420px;
+}
+.class4{
+    width: 350px;
+    margin-left: 400px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.class5{
+    width: 350px;
+    margin-left: 920px;
+    margin-top: -520px;
+    padding-bottom: 50px;
+}
+.classMain p{
+      color: #232323;
+}
+.classMain h1{
+    color: #222222;
+}
+
+.classMain h2{
+    color: #0056b3;
+
+}
+ .starting {
+    text-align: center;
+}
+.pp1{
+    color: #232323;
+    text-align: center;
+}
+.bb1{
+    margin-left: 700px;
+    background-color: #7d3cff;
+}
+.class1{
+    padding-top: 70px;
+}

@@ -1,0 +1,73 @@
+/* Container for all job cards */
+.job-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between cards */
+    padding: 20px;
+  }
+  
+  /* Individual job card styling */
+  .job-card {
+    background-color: #f8f9fa; /* Light grey background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Padding inside the card */
+    text-align: left; /* Align text to the left */
+    transition: transform 0.3s ease; /* Hover animation */
+    display: flex; /* Align items in row */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: space-between; /* Space out content */
+  }
+  
+  /* Logo image styling */
+  .job-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px; /* Space between image and title */
+    border-radius: 5px;
+  }
+  
+  /* Company name styling */
+  .job-card h2 {
+    font-size: 18px;
+    color: #343a40; /* Dark text */
+    margin-bottom: 10px; /* Space below the company name */
+  }
+  
+  /* Job title styling */
+  .job-card h3 {
+    font-size: 16px;
+    color: #007bff; /* Blue color to match buttons */
+    margin-bottom: 10px;
+  }
+  
+  /* Job description styling */
+  .job-card p {
+    font-size: 14px;
+    color: #6c757d; /* Grey color */
+    margin-bottom: 20px; /* Space before the button */
+    flex-grow: 1; /* Ensures description takes up remaining space */
+  }
+  
+  /* Button styling */
+  .view-more-btn {
+    background-color: #007bff; /* Primary blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+    align-self: flex-end; /* Align the button to the bottom right */
+  }
+  
+  /* Button hover effect */
+  .view-more-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Hover effect for the card */
+  .job-card:hover {
+    transform: translateY(-5px); /* Lifts the card slightly */
+  }
+  
