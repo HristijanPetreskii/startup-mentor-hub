@@ -70,3 +70,31 @@ A feature-rich Full-Stack MERN (MongoDB, Express.js, React, Node.js) platform de
 4.**Start Application:**
    npm run start
   # or: node server.js / nodemon server.js
+
+## Screenshots
+
+The following screenshots showcase the user interface and key features of the Startup & Mentor Hub Platform.
+
+### Home Page
+
+The landing page introduces the platform and provides navigation to its main sections.
+
+![Home Page](home.png)
+
+### Login Page
+
+The login interface allows users to access their accounts.
+
+![Login Page](Login.png)
+
+### Jobs & Opportunities
+
+Users can browse available opportunities and explore job listings.
+
+![Jobs & Opportunities](Jobs-2.png)
+
+### Job Details & Application
+
+Users can view the details of a job opportunity and proceed with the application process.
+
+![Job Details](Open%20Job.png)
